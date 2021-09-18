@@ -1,0 +1,166 @@
+html {
+  
+    margin: auto;
+    width: 961px;
+}
+ 
+
+header, #headerMain {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 501px;
+    position: relative;
+}
+img {
+    width: auto;
+}
+#logo-H img {
+    margin-right: 9px;
+    float: left;
+}
+#logo-H {
+    display: inline-block;
+}
+
+
+#logo-H h1 {
+    position: absolute;
+    margin-bottom: 0px;
+    left: 50px;
+    margin-top: -5px;
+    font-style: italic; 
+    font-family: 'Style Script', cursive;
+}
+
+#Icon {
+    margin-left: 100px;
+}
+
+#logo-H small {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: 32px;
+    font-size: 9px;
+    color: #879389;
+}
+
+.line {
+    margin-top: 19px;
+}
+
+#div-H-Main img {
+    display: inline-block;
+    height: 15px;
+    margin-top: 31px;
+    position: absolute;
+
+}
+
+#div-H-Main p {
+    color: #879389;
+    position: absolute;
+    margin-top: 31px;
+    display: inline-block;
+    margin-left: 21px;
+    
+}
+
+#headerMain h2 {
+    font-weight: 901;
+    font-family: 'Oswald', sans-serif;
+}
+
+#HeaderMain small {
+    position: absolute;
+    margin-top: -20px;
+    color: #879389;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+
+#headerMain {
+    margin-bottom: 20px;
+}
+
+#text p {
+    color: gray;
+}
+
+#text {
+    width: 880px;
+    font-size: 18px;
+    align-content: center;
+    margin:30px 15px;
+    
+}
+
+#formCheckbox {
+    background-image: url('../img/list-bg.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 900px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;    
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#Vanessa {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    gap: 100px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+#Vanessa h2 {
+    position: absolute;
+    left: 90px;
+    top: -18px;
+}
+
+#Vanessa p {
+    position: absolute;
+    left: 90px;
+    top: 18px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #BA7057;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0%;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    border-top: 1px solid gray;
+}
+
+footer img {
+    position: relative;
+    bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 40px;
+}
